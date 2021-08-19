@@ -1,0 +1,4 @@
+username: aeron92
+password: pepernoot12
+
+ssh key password : G@79Mc@Y]AN5
