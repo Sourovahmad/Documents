@@ -1,0 +1,9 @@
+.. printer discription should not be mendetory
+.. the product delete
+.. local timezone
+
+.. 10 min wait after order something 
+.. orders per round
+.. time problem 
+.. add category should be mandetory
+
