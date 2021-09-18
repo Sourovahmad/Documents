@@ -1,0 +1,8 @@
+/home 
+
+2. Ans Modal have to be improved
+3. https://test.learnedu.in/analysis add one more for total question 
+3. at qestion type analysis texts sould be like 1/how many answerd
+3. category analysis correct ans coming twice 
+4. at analysis user can select which day he want to see ++ top score par
+4. last quize details question wrong coming 
