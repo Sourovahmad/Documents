@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section.infoSec{
+    background: linear-gradient(rgb(161, 159, 6), #14711A);
+    padding: 100px 20px;
+    color: #fff;
+    
+}
+section.infoSec .allContentsFromInfoSec{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2));
+    padding: 15px;
+    border-radius: 12px;
+    width: 35%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+section.infoSec .lside{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section.infoSec .allContentsFromInfoSec .k2{
+    animation: guluMulu 1s ease 1;
+}
+section.infoSec .allContentsFromInfoSec .k3{
+    animation: juluMulu 1s ease 1;
+}
+@keyframes guluMulu {
+    from{
+        transform: translate(-50px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+@keyframes juluMulu {
+    from{
+        transform: translate(50px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+/* table section */
+
+
+section.infoAndTable{
+    padding: 50px 25px;
+    background: #2F6ED3;
+}
+section.infoAndTable .theTblTitle h2{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+}
+section.infoAndTable .theTblTitle h2::after{
+    content: '';
+    width: 150px;
+    height: 5px;
+    background: linear-gradient(rgba( 255, 255, 255, 0.5 ), rgba( 255, 255, 255, 0.5 ));
+    margin: 10px auto;
+    display: block;
+}
+section.infoAndTable .table{
+    width: 90%;
+    margin: auto;
+    background: rgba( 255, 255, 255, 0.27 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+}
+
+section.infoAndTable table{
+    border-collapse: collapse;
+    color: #fff;
+    width: 100%;
+    border-color: #fff;
+}
+section.infoAndTable table tr td, section.infoAndTable table tr th{
+    padding: 12px;
+    font-size: 18px;
+    border-right: 2px solid #fff;
+    text-align: center;
+}
+section.infoAndTable table tr td:last-child, section.infoAndTable table tr th:last-child{
+    border-right: none;
+}
+section.infoAndTable table tr{
+    border-bottom: 2px solid #fff;
+}
+section.infoAndTable table tr:last-child{
+    border-bottom: none;
+}

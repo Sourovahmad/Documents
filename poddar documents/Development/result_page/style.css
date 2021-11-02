@@ -1,0 +1,53 @@
+
+.result{
+       background: url(students-gcb11c3fe8_1920.jpg);
+    background-position: center;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.result-body {
+
+    width: 40vw;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0;
+    /* background:linear-gradient(45deg, #009688, #4caf50); */
+    /* opacity: 90%; */
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px rgba(0,0,0,.5);
+    display: flex!important;
+    align-content: space-around;
+    flex-direction: column;
+}
+.result-title{
+    /* border-bottom: 5px solid #003402; */
+}
+.result-content{
+
+}
+.result-body h1{
+    text-align: center;
+    padding: 20px 0;
+    color: #32A933;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.result-body h2{
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.result-body .result-back-btn{
+    background: #7FDB80;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    margin-top:10px ;
+    align-content: center;
+    display: flex;
+}
