@@ -1,0 +1,116 @@
+#footer_area .footerInner {
+    padding: 70px 0 20px;
+}
+#footer_area .footerInner .footerList {
+}
+#footer_area .footerInner .footerList h6 {
+    color: #615c5c;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+#footer_area .footerInner .footerList ul {
+    padding-left: 0;
+}
+#footer_area .footerInner .footerList ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+#footer_area .footerInner .footerList ul li a {
+    color: #888888;
+    font-size: 15px;
+    margin: 0;
+}
+#footer_area .footerInner .footerList ul li a:hover {
+    text-decoration: none;
+}
+#footer_area .footerInner .personalInfo {
+    text-align: right;
+}
+#footer_area .footerInner .personalInfo h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+#footer_area .footerInner .personalInfo ul {
+    padding-left: 0;
+}
+#footer_area .footerInner .personalInfo ul li {
+    list-style: none;
+}
+#footer_area .footerInner .personalInfo ul li p {
+    color: #888888;
+    font-size: 14px;
+    margin: 0;
+}
+#footer_area .footerInner .personalInfo ul li h6 {
+    font-size: 14px;
+    margin: 0;
+    color: #615c5c;
+}
+
+#footer_area .socialInner {
+    background: #FBFBFB;
+    border-top: 1px solid #888888;
+    padding: 10px 0;
+    text-align: center;
+}
+#footer_area .socialInner img {
+    width: 80px;
+}
+#footer_area .socialInner p {
+    font-size: 15px;
+    margin: 0 -66px 0 -10px;
+    text-align: right;
+    color: #888888;
+}
+#footer_area .socialInner .socialIcon {
+    text-align: right;
+}
+#footer_area .socialInner .socialIcon a {
+    color: #888888;
+    border: 1px solid #888888;
+    border-radius: 50%;
+    padding: 3px 6px;
+    margin: 0 7px;
+}
+#footer_area .socialInner .socialIcon .f {
+    padding: 3px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code */
+@media only screen and (max-width: 600px) {
+    #footer_area .footerInner .personalInfo {
+        text-align: left;
+    }
+    #footer_area .socialInner p {
+        margin: 0;
+    }
+    #footer_area .socialInner img {
+        margin: 0 auto 10px;
+    }
+    #footer_area .socialInner p {
+        margin: 0 auto 10px;
+    }
+    #footer_area .socialInner .socialIcon {
+        text-align: center;
+    }
+  }
+
+
+
+
+
+
+
+
+
