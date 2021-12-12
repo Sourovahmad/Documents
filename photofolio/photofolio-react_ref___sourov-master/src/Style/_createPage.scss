@@ -1,0 +1,76 @@
+@import "util";
+#create-page-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    margin-bottom: 2rem;
+    .sidebar {
+        width: 160px;
+    }
+    .content {
+        width: calc(100% - 160px);
+        padding: 20px;
+        overflow:hidden;
+        .content__container {
+            width: 100%;
+            padding:20px;
+            background: white;
+            min-height: calc(100vh - 110px);
+            box-shadow:$shadow-lg;
+            border: 1px solid $light-border-color;
+            display: flex;
+            .project-wrapper{
+                height: auto;
+                width: 80%;
+                .image-uploader-area{
+                    width: 100%;
+                    text-align: center;
+                    border: 1px dashed $grey-text-color;
+                    border-radius: 10px;
+                    min-height: 100%;
+                    display: flex;
+                    justify-content: center;align-items: center;
+                    flex-flow: column;
+                    img{
+                        max-width: 200px;
+                    }
+                }
+            }
+            .button_wrapper{
+                width: 18%;
+                margin-left: 2%;
+            }
+        }
+    }
+}
+
+
+#photoPholio-page{
+    .tow__layout_site{
+        margin-top: 20px;
+        &:first-child{
+            margin-top: 0px;
+        }
+        .image-uploader-area{
+            height: 250px;
+            img{
+                width: 100px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .one__layout__site{
+        height: 300px;
+        margin-bottom: 30px;
+        &.default{
+            min-height: 70vh !important;
+            margin-bottom: 0px !important;
+        }
+    }
+
+    .page-text{
+        color: $grey-text-color;
+        font-weight: 600;
+    }
+}

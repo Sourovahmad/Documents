@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c9f3fcb-7895-46a5-8191-38e6a7d55e65/deploy-status)](https://app.netlify.com/sites/cranky-morse-b51906/deploys)

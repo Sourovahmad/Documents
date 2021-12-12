@@ -1,0 +1,19 @@
+@import "util";
+@import url($font-url);
+
+*{
+    font-family: $font-family;
+}
+body{
+    background: $body-bg-color;
+}
+
+.form-control{
+    &:focus,:active{
+        box-shadow: none;
+    }
+}
+
+;
+@import "components";
+@import "createPage";

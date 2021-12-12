@@ -1,0 +1,27 @@
+$primary-color: #007880;
+$black-color: #333333;
+$grey-text-color: #8b8b8b;
+$light-gray-color: #a5a1a1;
+$semi-black-color: #434343;
+$body-bg-color: #f7f7f7;
+$white:white;
+$font-url: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap";
+$font-family: "Open Sans", sans-serif;
+$shadow-lg: 6px 6px 9px rgba(0, 0, 0, 0.08);
+$light-border-color:lighten($light-gray-color,27%);
+$around-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+.theme-btn {
+    border: none;
+    color: white;
+    background: $primary-color;
+    padding: 5px 10px;
+    &:hover {
+        background: darken($primary-color, 5%);
+        color: white;
+    }
+}
+
+.theme-color{
+    color:$primary-color;
+}
